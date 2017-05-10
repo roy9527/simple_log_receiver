@@ -4,6 +4,8 @@ from app import create_app
 from flask_script import Manager, Shell, Server
 import logging
 
+
+
 app = create_app('debug')
 manager = Manager(app)
 
@@ -23,9 +25,7 @@ def index():
     return 'hello'
 
 if __name__ == '__main__':
-    handler = logging.FileHandler('eiffel_flask.log', encoding='UTF-8')
-    handler.setLevel(logging.DEBUG)
-    logging_format = logging.Formatter('%(asctime)s - %(funcName)s - %(message)s')
-    handler.setFormatter(logging_format)
-    app.logger.addHandler(handler)
+    # logger = logging.getLogger('gunicorn.access')
+    # logger.addHandler(WatchedFileHandler('log/gunicorn_access.log'))
+    # logger.propagate = False
     manager.run()
