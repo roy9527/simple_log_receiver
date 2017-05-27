@@ -1,17 +1,56 @@
-[2017-05-10 10:58:20 +0000] [26668] [INFO] Starting gunicorn 19.7.1
-[2017-05-10 10:58:20 +0000] [26668] [INFO] Listening at: http://127.0.0.1:8000 (26668)
-[2017-05-10 10:58:20 +0000] [26668] [INFO] Using worker: gunicorn.workers.ggevent.GeventWorker
-[2017-05-10 10:58:20 +0000] [26671] [INFO] Booting worker with pid: 26671
-[2017-05-10 10:58:20 +0000] [26672] [INFO] Booting worker with pid: 26672
-[2017-05-10 10:58:21 +0000] [26673] [INFO] Booting worker with pid: 26673
-[2017-05-10 10:59:01 +0000] [26668] [INFO] Handling signal: term
-[2017-05-10 10:59:02 +0000] [26671] [INFO] Worker exiting (pid: 26671)
-[2017-05-10 10:59:02 +0000] [26672] [INFO] Worker exiting (pid: 26672)
-[2017-05-10 10:59:02 +0000] [26673] [INFO] Worker exiting (pid: 26673)
-[2017-05-10 10:59:02 +0000] [26668] [INFO] Shutting down: Master
-[2017-05-10 10:59:04 +0000] [26683] [INFO] Starting gunicorn 19.7.1
-[2017-05-10 10:59:04 +0000] [26683] [INFO] Listening at: http://127.0.0.1:8000 (26683)
-[2017-05-10 10:59:04 +0000] [26683] [INFO] Using worker: gunicorn.workers.ggevent.GeventWorker
-[2017-05-10 10:59:04 +0000] [26686] [INFO] Booting worker with pid: 26686
-[2017-05-10 10:59:04 +0000] [26687] [INFO] Booting worker with pid: 26687
-[2017-05-10 10:59:04 +0000] [26688] [INFO] Booting worker with pid: 26688
+[2017-05-18 09:35:31 +0000] [20193] [INFO] Starting gunicorn 19.7.1
+[2017-05-18 09:35:31 +0000] [20193] [INFO] Listening at: http://127.0.0.1:8000 (20193)
+[2017-05-18 09:35:31 +0000] [20193] [INFO] Using worker: gunicorn.workers.ggevent.GeventWorker
+[2017-05-18 09:35:31 +0000] [20196] [INFO] Booting worker with pid: 20196
+[2017-05-18 09:35:31 +0000] [20197] [INFO] Booting worker with pid: 20197
+[2017-05-18 09:35:32 +0000] [20198] [INFO] Booting worker with pid: 20198
+[2017-05-20 04:46:31 +0000] [20193] [INFO] Handling signal: term
+[2017-05-20 04:46:31 +0000] [20196] [INFO] Worker exiting (pid: 20196)
+[2017-05-20 04:46:31 +0000] [20197] [INFO] Worker exiting (pid: 20197)
+[2017-05-20 04:46:31 +0000] [20198] [INFO] Worker exiting (pid: 20198)
+[2017-05-20 04:46:31 +0000] [20193] [INFO] Shutting down: Master
+[2017-05-20 04:46:33 +0000] [27663] [INFO] Starting gunicorn 19.7.1
+[2017-05-20 04:46:33 +0000] [27663] [INFO] Listening at: http://127.0.0.1:8000 (27663)
+[2017-05-20 04:46:33 +0000] [27663] [INFO] Using worker: gunicorn.workers.ggevent.GeventWorker
+[2017-05-20 04:46:33 +0000] [27666] [INFO] Booting worker with pid: 27666
+[2017-05-20 04:46:33 +0000] [27667] [INFO] Booting worker with pid: 27667
+[2017-05-20 04:46:33 +0000] [27668] [INFO] Booting worker with pid: 27668
+[2017-05-20 05:00:59 +0000] [27663] [INFO] Handling signal: term
+[2017-05-20 05:01:00 +0000] [27666] [INFO] Worker exiting (pid: 27666)
+[2017-05-20 05:01:00 +0000] [27667] [INFO] Worker exiting (pid: 27667)
+[2017-05-20 05:01:00 +0000] [27668] [INFO] Worker exiting (pid: 27668)
+[2017-05-20 05:01:00 +0000] [27663] [INFO] Shutting down: Master
+[2017-05-20 05:01:01 +0000] [27908] [INFO] Starting gunicorn 19.7.1
+[2017-05-20 05:01:01 +0000] [27908] [INFO] Listening at: http://127.0.0.1:8000 (27908)
+[2017-05-20 05:01:01 +0000] [27908] [INFO] Using worker: gunicorn.workers.ggevent.GeventWorker
+[2017-05-20 05:01:01 +0000] [27911] [INFO] Booting worker with pid: 27911
+[2017-05-20 05:01:01 +0000] [27912] [INFO] Booting worker with pid: 27912
+[2017-05-20 05:01:01 +0000] [27913] [INFO] Booting worker with pid: 27913
+[2017-05-20 05:03:36 +0000] [27911] [INFO] Worker exiting (pid: 27911)
+[2017-05-20 05:03:36 +0000] [28026] [INFO] Booting worker with pid: 28026
+[2017-05-20 05:03:41 +0000] [27912] [INFO] Worker exiting (pid: 27912)
+[2017-05-20 05:03:41 +0000] [28028] [INFO] Booting worker with pid: 28028
+[2017-05-20 05:03:44 +0000] [27913] [INFO] Worker exiting (pid: 27913)
+[2017-05-20 05:03:44 +0000] [28030] [INFO] Booting worker with pid: 28030
+[2017-05-24 05:33:25 +0000] [27908] [INFO] Handling signal: term
+[2017-05-24 05:33:25 +0000] [28028] [INFO] Worker exiting (pid: 28028)
+[2017-05-24 05:33:25 +0000] [28030] [INFO] Worker exiting (pid: 28030)
+[2017-05-24 05:33:25 +0000] [28026] [INFO] Worker exiting (pid: 28026)
+[2017-05-24 05:33:25 +0000] [27908] [INFO] Shutting down: Master
+[2017-05-24 05:33:27 +0000] [31363] [INFO] Starting gunicorn 19.7.1
+[2017-05-24 05:33:27 +0000] [31363] [INFO] Listening at: http://127.0.0.1:8000 (31363)
+[2017-05-24 05:33:27 +0000] [31363] [INFO] Using worker: gunicorn.workers.ggevent.GeventWorker
+[2017-05-24 05:33:27 +0000] [31366] [INFO] Booting worker with pid: 31366
+[2017-05-24 05:33:27 +0000] [31368] [INFO] Booting worker with pid: 31368
+[2017-05-24 05:33:27 +0000] [31369] [INFO] Booting worker with pid: 31369
+[2017-05-24 05:39:24 +0000] [31363] [INFO] Handling signal: term
+[2017-05-24 05:39:25 +0000] [31366] [INFO] Worker exiting (pid: 31366)
+[2017-05-24 05:39:25 +0000] [31368] [INFO] Worker exiting (pid: 31368)
+[2017-05-24 05:39:25 +0000] [31369] [INFO] Worker exiting (pid: 31369)
+[2017-05-24 05:39:25 +0000] [31363] [INFO] Shutting down: Master
+[2017-05-24 05:40:38 +0000] [31925] [INFO] Starting gunicorn 19.7.1
+[2017-05-24 05:40:38 +0000] [31925] [INFO] Listening at: http://127.0.0.1:8000 (31925)
+[2017-05-24 05:40:38 +0000] [31925] [INFO] Using worker: gunicorn.workers.ggevent.GeventWorker
+[2017-05-24 05:40:38 +0000] [31928] [INFO] Booting worker with pid: 31928
+[2017-05-24 05:40:38 +0000] [31929] [INFO] Booting worker with pid: 31929
+[2017-05-24 05:40:38 +0000] [31930] [INFO] Booting worker with pid: 31930

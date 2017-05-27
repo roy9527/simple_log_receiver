@@ -22,14 +22,8 @@ with open('/home/ubuntu/workspace/simple_log_receiver/log/access.log', 'r') as f
             m = lj['MODEL']
             if not t in all_tokens:
                 all_tokens.append(t)
-            if not m in tmp_all_model:
-                tmp_all_model.append(m)
-            if code == '906':
-                if not t in success_tokens:
-                    success_tokens.append(t)
-                if not m in tmp_model:
-                    tmp_model.append(m)
-                    success_model.append(line)
+            else:
+                if not t in tmp_model:
+                    tmp_model.append(t)
 
-print('success_model / all_model : ' + str(len(success_model)) + '/'+ str(len(tmp_all_model)))
-print('success_token / all_token : ' + str(len(success_tokens)) + '/'+ str(len(all_tokens))) 
+print('success_token / all_token : ' + str(len(tmp_model)) + '/'+ str(len(all_tokens))) 

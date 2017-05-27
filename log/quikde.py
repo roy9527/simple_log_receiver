@@ -14,7 +14,7 @@ ok_version_s = set([])
 json_s = set([])
 
 tmp_s = set([])
-with open('/home/ubuntu/workspace/simple_log_receiver/log/access.log', 'r') as f:
+with open('/home/ubuntu/workspace/simple_log_receiver/log/access05201246.log', 'r') as f:
 
     for line in f:
         line = line.rstrip()
@@ -27,14 +27,20 @@ with open('/home/ubuntu/workspace/simple_log_receiver/log/access.log', 'r') as f
             v = lj['VERSION'].decode('utf-8')
             all_token_s.add(t)
             all_model_s.add(m)
+            json_s.add(line)
             if code == '906':
                 ok_token_s.add(t)
                 ok_model_s.add(m)
-                json_s.add(line)
                 if lj['MODEL'].startswith('OPPO+R7'):
                     tmp_s.add(t)
                 if not v.startswith("4."):
                     ok_version_s.add('model:' + lj['MODEL'] + ' | brand:'+ lj['BRAND'] + ' | version:' + lj['VERSION'])            
+
+with open('05201246_json_list.txt', 'a') as model:
+    for m in json_s:
+        model.write(m + '\n')
+#for v in ok_version_s:
+#    print(v + '\n')
 
 print('---------------------------')
 
