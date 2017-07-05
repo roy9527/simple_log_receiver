@@ -1,6 +1,14 @@
-*.pyc
-app/__pycache__
-app/log/__pycache__
-eiffelenv
-log/access.log
-log/gunicorn.pid
+.gradle
+/build/
+gradle
+app/.DS_Store
+.vscode
+__pycache__
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+.DS_Stroe

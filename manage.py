@@ -4,9 +4,11 @@ from app import create_app
 from flask_script import Manager, Shell, Server
 import logging
 
-
+from flaskext.markdown import Markdown
+from flask import render_template
 
 app = create_app('debug')
+Markdown(app)
 manager = Manager(app)
 
 @manager.shell
@@ -22,7 +24,7 @@ manager.add_command("runserver", Server(
 
 @app.route('/')
 def index():
-    return 'hello'
+    return render_template('ouo.html')
 
 if __name__ == '__main__':
     # logger = logging.getLogger('gunicorn.access')

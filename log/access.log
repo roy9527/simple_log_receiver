@@ -1,0 +1,15 @@
+{'code': '906', 'MODEL': 'OPPO+R7s', 'BRAND': 'OPPO', 'VERSION': '4.4.4', 'token': '0'}
+127.0.0.1 - - [12/May/2017:03:08:39 +0000] "POST /log/upload_log HTTP/1.0" 200 15 "-" "Dalvik/1.6.0 (Linux; U; Android 4.4.4; OPPO R7s Build/KTU84P) | 0"
+
+{'code': '906', 'MODEL': 'OPPO+R7s', 'BRAND': 'OPPO', 'VERSION': '4.4.4', 'token': '122652376784997476'}
+127.0.0.1 - - [12/May/2017:03:08:40 +0000] "POST /log/upload_log HTTP/1.0" 200 15 "-" "Dalvik/1.6.0 (Linux; U; Android 4.4.4; OPPO R7s Build/KTU84P) | 122652376784997476"
+{'code': '906', 'MODEL': 'OPPO+R7s', 'BRAND': 'OPPO', 'VERSION': '4.4.4', 'token': '2281987957117156297'}
+127.0.0.1 - - [12/May/2017:03:08:40 +0000] "POST /log/upload_log HTTP/1.0" 200 15 "-" "Dalvik/1.6.0 (Linux; U; Android 4.4.4; OPPO R7s Build/KTU84P) | 2281987957117156297"
+{'code': '906', 'MODEL': 'OPPO+R7s', 'BRAND': 'OPPO', 'VERSION': '4.4.4', 'token': '101753599144539739'}
+127.0.0.1 - - [12/May/2017:03:08:41 +0000] "POST /log/upload_log HTTP/1.0" 200 15 "-" "Dalvik/1.6.0 (Linux; U; Android 4.4.4; OPPO R7s Build/KTU84P) | 101753599144539739"
+{'code': '906', 'MODEL': 'OPPO+R7s', 'BRAND': 'OPPO', 'VERSION': '4.4.4', 'token': '116696989305204060'}
+127.0.0.1 - - [12/May/2017:03:08:41 +0000] "POST /log/upload_log HTTP/1.0" 200 15 "-" "Dalvik/1.6.0 (Linux; U; Android 4.4.4; OPPO R7s Build/KTU84P) | 116696989305204060"
+{'code': '906', 'MODEL': 'OPPO+R7s', 'BRAND': 'OPPO', 'VERSION': '4.4.4', 'token': '116696989305204060'}
+127.0.0.1 - - [12/May/2017:03:08:42 +0000] "POST /log/upload_log HTTP/1.0" 200 15 "-" "Dalvik/1.6.0 (Linux; U; Android 4.4.4; OPPO R7s Build/KTU84P) | 116696989305204060"
+{'code': '906', 'MODEL': 'OPPO+R7s', 'BRAND': 'OPPO', 'VERSION': '4.4.4', 'token': '124430142473251268'}
+127.0.0.1 - - [12/May/2017:03:08:43 +0000] "POST /log/upload_log HTTP/1.0" 200 15 "-" "Dalvik/1.6.0 (Linux; U; Android 4.4.4; OPPO R7s Build/KTU84P) | 124430142473251268"
